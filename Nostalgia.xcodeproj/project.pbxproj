@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		285609BD2CE4ECBE00071797 /* NostalgiaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285609BC2CE4ECBE00071797 /* NostalgiaApp.swift */; };
+		285609BF2CE4ECBE00071797 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285609BE2CE4ECBE00071797 /* ContentView.swift */; };
+		285609C12CE4ECBF00071797 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 285609C02CE4ECBF00071797 /* Assets.xcassets */; };
+		285609C42CE4ECBF00071797 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 285609C32CE4ECBF00071797 /* Preview Assets.xcassets */; };
+		285609CE2CE4ECBF00071797 /* NostalgiaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285609CD2CE4ECBF00071797 /* NostalgiaTests.swift */; };
+		285609D82CE4ECBF00071797 /* NostalgiaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285609D72CE4ECBF00071797 /* NostalgiaUITests.swift */; };
+		285609DA2CE4ECBF00071797 /* NostalgiaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285609D92CE4ECBF00071797 /* NostalgiaUITestsLaunchTests.swift */; };
+		285609E72CE4ED7300071797 /* Memory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285609E62CE4ED7300071797 /* Memory.swift */; };
+		285609E92CE4EEBA00071797 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285609E82CE4EEBA00071797 /* ViewModel.swift */; };
+		285609EC2CE4F21F00071797 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285609EB2CE4F21F00071797 /* AppDelegate.swift */; };
+		285609EE2CE4F35D00071797 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285609ED2CE4F35D00071797 /* ImagePicker.swift */; };
+		285609F02CE4F3C600071797 /* DateFormatterExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285609EF2CE4F3C600071797 /* DateFormatterExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		285609CA2CE4ECBF00071797 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 285609B12CE4ECBE00071797 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 285609B82CE4ECBE00071797;
+			remoteInfo = Nostalgia;
+		};
+		285609D42CE4ECBF00071797 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 285609B12CE4ECBE00071797 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 285609B82CE4ECBE00071797;
+			remoteInfo = Nostalgia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		285609B92CE4ECBE00071797 /* Nostalgia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nostalgia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		285609BC2CE4ECBE00071797 /* NostalgiaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NostalgiaApp.swift; sourceTree = "<group>"; };
+		285609BE2CE4ECBE00071797 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		285609C02CE4ECBF00071797 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		285609C32CE4ECBF00071797 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		285609C92CE4ECBF00071797 /* NostalgiaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NostalgiaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		285609CD2CE4ECBF00071797 /* NostalgiaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NostalgiaTests.swift; sourceTree = "<group>"; };
+		285609D32CE4ECBF00071797 /* NostalgiaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NostalgiaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		285609D72CE4ECBF00071797 /* NostalgiaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NostalgiaUITests.swift; sourceTree = "<group>"; };
+		285609D92CE4ECBF00071797 /* NostalgiaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NostalgiaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		285609E62CE4ED7300071797 /* Memory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memory.swift; sourceTree = "<group>"; };
+		285609E82CE4EEBA00071797 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		285609EB2CE4F21F00071797 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		285609ED2CE4F35D00071797 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		285609EF2CE4F3C600071797 /* DateFormatterExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatterExtension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		285609B62CE4ECBE00071797 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		285609C62CE4ECBF00071797 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		285609D02CE4ECBF00071797 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		285609B02CE4ECBE00071797 = {
+			isa = PBXGroup;
+			children = (
+				285609BB2CE4ECBE00071797 /* Nostalgia */,
+				285609CC2CE4ECBF00071797 /* NostalgiaTests */,
+				285609D62CE4ECBF00071797 /* NostalgiaUITests */,
+				285609BA2CE4ECBE00071797 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		285609BA2CE4ECBE00071797 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				285609B92CE4ECBE00071797 /* Nostalgia.app */,
+				285609C92CE4ECBF00071797 /* NostalgiaTests.xctest */,
+				285609D32CE4ECBF00071797 /* NostalgiaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		285609BB2CE4ECBE00071797 /* Nostalgia */ = {
+			isa = PBXGroup;
+			children = (
+				285609BC2CE4ECBE00071797 /* NostalgiaApp.swift */,
+				285609BE2CE4ECBE00071797 /* ContentView.swift */,
+				285609C02CE4ECBF00071797 /* Assets.xcassets */,
+				285609C22CE4ECBF00071797 /* Preview Content */,
+				285609E62CE4ED7300071797 /* Memory.swift */,
+				285609E82CE4EEBA00071797 /* ViewModel.swift */,
+				285609EB2CE4F21F00071797 /* AppDelegate.swift */,
+				285609ED2CE4F35D00071797 /* ImagePicker.swift */,
+				285609EF2CE4F3C600071797 /* DateFormatterExtension.swift */,
+			);
+			path = Nostalgia;
+			sourceTree = "<group>";
+		};
+		285609C22CE4ECBF00071797 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				285609C32CE4ECBF00071797 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		285609CC2CE4ECBF00071797 /* NostalgiaTests */ = {
+			isa = PBXGroup;
+			children = (
+				285609CD2CE4ECBF00071797 /* NostalgiaTests.swift */,
+			);
+			path = NostalgiaTests;
+			sourceTree = "<group>";
+		};
+		285609D62CE4ECBF00071797 /* NostalgiaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				285609D72CE4ECBF00071797 /* NostalgiaUITests.swift */,
+				285609D92CE4ECBF00071797 /* NostalgiaUITestsLaunchTests.swift */,
+			);
+			path = NostalgiaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		285609B82CE4ECBE00071797 /* Nostalgia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 285609DD2CE4ECBF00071797 /* Build configuration list for PBXNativeTarget "Nostalgia" */;
+			buildPhases = (
+				285609B52CE4ECBE00071797 /* Sources */,
+				285609B62CE4ECBE00071797 /* Frameworks */,
+				285609B72CE4ECBE00071797 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nostalgia;
+			productName = Nostalgia;
+			productReference = 285609B92CE4ECBE00071797 /* Nostalgia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		285609C82CE4ECBF00071797 /* NostalgiaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 285609E02CE4ECBF00071797 /* Build configuration list for PBXNativeTarget "NostalgiaTests" */;
+			buildPhases = (
+				285609C52CE4ECBF00071797 /* Sources */,
+				285609C62CE4ECBF00071797 /* Frameworks */,
+				285609C72CE4ECBF00071797 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				285609CB2CE4ECBF00071797 /* PBXTargetDependency */,
+			);
+			name = NostalgiaTests;
+			productName = NostalgiaTests;
+			productReference = 285609C92CE4ECBF00071797 /* NostalgiaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		285609D22CE4ECBF00071797 /* NostalgiaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 285609E32CE4ECBF00071797 /* Build configuration list for PBXNativeTarget "NostalgiaUITests" */;
+			buildPhases = (
+				285609CF2CE4ECBF00071797 /* Sources */,
+				285609D02CE4ECBF00071797 /* Frameworks */,
+				285609D12CE4ECBF00071797 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				285609D52CE4ECBF00071797 /* PBXTargetDependency */,
+			);
+			name = NostalgiaUITests;
+			productName = NostalgiaUITests;
+			productReference = 285609D32CE4ECBF00071797 /* NostalgiaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		285609B12CE4ECBE00071797 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					285609B82CE4ECBE00071797 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					285609C82CE4ECBF00071797 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 285609B82CE4ECBE00071797;
+					};
+					285609D22CE4ECBF00071797 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 285609B82CE4ECBE00071797;
+					};
+				};
+			};
+			buildConfigurationList = 285609B42CE4ECBE00071797 /* Build configuration list for PBXProject "Nostalgia" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 285609B02CE4ECBE00071797;
+			productRefGroup = 285609BA2CE4ECBE00071797 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				285609B82CE4ECBE00071797 /* Nostalgia */,
+				285609C82CE4ECBF00071797 /* NostalgiaTests */,
+				285609D22CE4ECBF00071797 /* NostalgiaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		285609B72CE4ECBE00071797 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				285609C42CE4ECBF00071797 /* Preview Assets.xcassets in Resources */,
+				285609C12CE4ECBF00071797 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		285609C72CE4ECBF00071797 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		285609D12CE4ECBF00071797 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		285609B52CE4ECBE00071797 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				285609E72CE4ED7300071797 /* Memory.swift in Sources */,
+				285609BF2CE4ECBE00071797 /* ContentView.swift in Sources */,
+				285609E92CE4EEBA00071797 /* ViewModel.swift in Sources */,
+				285609F02CE4F3C600071797 /* DateFormatterExtension.swift in Sources */,
+				285609EE2CE4F35D00071797 /* ImagePicker.swift in Sources */,
+				285609EC2CE4F21F00071797 /* AppDelegate.swift in Sources */,
+				285609BD2CE4ECBE00071797 /* NostalgiaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		285609C52CE4ECBF00071797 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				285609CE2CE4ECBF00071797 /* NostalgiaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		285609CF2CE4ECBF00071797 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				285609D82CE4ECBF00071797 /* NostalgiaUITests.swift in Sources */,
+				285609DA2CE4ECBF00071797 /* NostalgiaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		285609CB2CE4ECBF00071797 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 285609B82CE4ECBE00071797 /* Nostalgia */;
+			targetProxy = 285609CA2CE4ECBF00071797 /* PBXContainerItemProxy */;
+		};
+		285609D52CE4ECBF00071797 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 285609B82CE4ECBE00071797 /* Nostalgia */;
+			targetProxy = 285609D42CE4ECBF00071797 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		285609DB2CE4ECBF00071797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		285609DC2CE4ECBF00071797 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		285609DE2CE4ECBF00071797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Nostalgia/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = choyan.Nostalgia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		285609DF2CE4ECBF00071797 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Nostalgia/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = choyan.Nostalgia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		285609E12CE4ECBF00071797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = choyan.NostalgiaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nostalgia.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Nostalgia";
+			};
+			name = Debug;
+		};
+		285609E22CE4ECBF00071797 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = choyan.NostalgiaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nostalgia.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Nostalgia";
+			};
+			name = Release;
+		};
+		285609E42CE4ECBF00071797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = choyan.NostalgiaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Nostalgia;
+			};
+			name = Debug;
+		};
+		285609E52CE4ECBF00071797 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = choyan.NostalgiaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Nostalgia;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		285609B42CE4ECBE00071797 /* Build configuration list for PBXProject "Nostalgia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				285609DB2CE4ECBF00071797 /* Debug */,
+				285609DC2CE4ECBF00071797 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		285609DD2CE4ECBF00071797 /* Build configuration list for PBXNativeTarget "Nostalgia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				285609DE2CE4ECBF00071797 /* Debug */,
+				285609DF2CE4ECBF00071797 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		285609E02CE4ECBF00071797 /* Build configuration list for PBXNativeTarget "NostalgiaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				285609E12CE4ECBF00071797 /* Debug */,
+				285609E22CE4ECBF00071797 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		285609E32CE4ECBF00071797 /* Build configuration list for PBXNativeTarget "NostalgiaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				285609E42CE4ECBF00071797 /* Debug */,
+				285609E52CE4ECBF00071797 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 285609B12CE4ECBE00071797 /* Project object */;
+}
