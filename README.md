@@ -4,7 +4,11 @@
 -- Watch previous memories
 -- Get notifications about a memory every year on the same date 
 
-[Watch the video](run.mp4)
+<video width="768" controls>
+  <source src="run.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 
 ![image-1](image-1.jpg)
 ![image-2](image-2.jpg)
