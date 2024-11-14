@@ -4,6 +4,7 @@
 -- Watch previous memories
 -- Get notifications about a memory every year on the same date 
 
+![Alt text](run.gif)
 
 ![image-1](image-1.jpg)
 ![image-2](image-2.jpg)
