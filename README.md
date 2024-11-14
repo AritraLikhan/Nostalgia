@@ -4,10 +4,7 @@
 -- Watch previous memories
 -- Get notifications about a memory every year on the same date 
 
-<video width="768" controls>
-  <source src="run.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+![Alt text](Flood2.gif)
 
 
 ![image-1](image-1.jpg)
